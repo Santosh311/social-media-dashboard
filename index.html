@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- BootStrap4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom-CSS -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- font-awesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+    <title>Skill Safari | Article preview component</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+      <div id="first-header" class="col-lg-10">
+        <h1>Social Media Dashboard</h1>
+        <p class="light-blue"><b>Total Followers: 7,174</b></p>
+      </div> 
+      <div class="col-lg-2" style="margin-top: 25px;">
+            <p style="display: inline-block; margin-right: 5px; font-weight: 700; color: cadetblue;">Dark Mode</p>
+            <input type="checkbox" id="switch" class="checkbox float-right" onclick="toggleTheme()"/> 
+            <label for="switch" class="toggle"></label>
+      </div>  
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-facebook">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-facebook-square social-icon"></i>
+                <b>/Santosh311</b>
+              </p>
+              <h1>1593</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>12 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-twitter">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-twitter-square social-icon"></i>
+                <b><small>@Santosh311302</small></b>
+              </p>
+              <h1>1500</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>99 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-instagram">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <i class="fab fa-instagram social-icon"></i>
+                <b><small>/Santosh.311</small></b>
+              </p>
+              <h1>1242</h1>
+              <p class="light-blue data-type">FOLLOWERS</p>
+              <p class="data-today text-sucess"><small><i class="fas fa-caret-up"></i><br><b>1099 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card" id="b-card-youtube">
+              <div class="border"></div>
+              <p class="light-blue social-username">
+                <img src="img/icon-youtube.svg" alt="Youtube Icon" class="social-icon-yt" style="height: 33px;">
+                <b><small>/Santosh311302</small></b>
+              </p>
+              <h1>2839</h1>
+              <p class="light-blue data-type">SUBSCRIBERS</p>
+              <p class="data-today text-danger"><small><i class="fas fa-caret-down"></i><br><b>144 Today</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="second-header">
+        <h1>Overiew - Today</h1>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-facebook">
+              <p class="small-text light-blue"><small><b>Page Views</b></small></p>
+              <p class="small-logo"><i class="fab fa-facebook-square social-icon"></i></p>
+              <h1 class="small-number"><small>87</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>7%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-facebook">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-facebook-square social-icon"></i></p>
+              <h1 class="small-number"><small>52</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>2%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-instagram">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-instagram social-icon"></i></p>
+              <h1 class="small-number"><small>461</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>245%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-instagram">
+              <p class="small-text light-blue"><small><b>Profile Views</b></small></p>
+              <p class="small-logo"><i class="fab fa-instagram social-icon"></i></p>
+              <h1 class="small-number"><small>220</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>257%</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-twitter">
+              <p class="small-text light-blue"><small><b>Retweets</b></small></p>
+              <p class="small-logo"><i class="fab fa-twitter-square social-icon"></i></p>
+              <h1 class="small-number"><small>87</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>7%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-twitter">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><i class="fab fa-twitter-square social-icon"></i></p>
+              <h1 class="small-number"><small>52</small></h1>
+              <p class="small-percent text-danger"><small><i class="fas fa-caret-down"></i><br><b>2%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-youtube">
+              <p class="small-text light-blue"><small><b>Likes</b></small></p>
+              <p class="small-logo"><img src="img/icon-youtube.svg" alt="Youtube Icon" class="social-icon"></p>
+              <h1 class="small-number"><small>5462</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>245%</b></small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-container">
+            <div class="card small-card" id="b-card-youtube">
+              <p class="small-text light-blue"><small><b>Total Views</b></small></p>
+              <p class="small-logo"><img src="img/icon-youtube.svg" alt="Youtube Icon" class="social-icon"></p>
+              <h1 class="small-number"><small>52k</small></h1>
+              <p class="small-percent text-sucess"><small><i class="fas fa-caret-up"></i><br><b>257%</b></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
